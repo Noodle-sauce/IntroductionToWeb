@@ -1,10 +1,7 @@
 <?php
-
-require "vendor/autoload.php";
-
-flight::route("/", function(){
-    echo "Hello from / route";
-});
-
-flight::start();
+// This is a single line comment
+echo "Hello world! ";
+echo "How are you?";
+echo "Idk if im happy?";
+echo "Hello everybody!";
 ?>
