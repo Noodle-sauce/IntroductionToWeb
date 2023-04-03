@@ -3,7 +3,7 @@
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 
-require_once("CustomersDao.class.php");
+require_once("StudentsDao.class.php");
 
 $customer_dao = new CustomersDao();
 

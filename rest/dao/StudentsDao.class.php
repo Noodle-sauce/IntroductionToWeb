@@ -15,7 +15,7 @@ class CustomersDao{
         $servername = "localhost";
         $username = "root";
         $password = "webproject123";
-        $schema = "Webproject2";
+        $schema = "webproject2";
         
         try {
             $this->conn = new PDO("mysql:host=$servername;dbname=$schema", $username, $password);
